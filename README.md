@@ -17,12 +17,10 @@ The assignment is to write a small library class that can perform the following 
     <li>{"action":"run", "time":75}</li>
     <li>{"action":"jump", "time":200}</li>
 </ol> 
-* 1) 
-* 2) 
-* 3) 
      Assume that an end user will be making concurrent calls into this function.
 
 2. Statistics 
+
 ```getStats () returning string```
    
 Write a second function that accepts no input and returns a serialized json array of the average time for each action that has been provided to the addAction function. Output after the 3 sample calls above would be:
